@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Raleway:wght@700&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.headingregular {
+  font-weight: 400;
+}
+
+.HeadingH1Bold {
+  font-size: 62px;
+  letter-spacing: 0.003em;
+}
+
+.HeadingH2Bold {
+  font-size: 48px;
+  letter-spacing: 0.005em;
+}
+
+.HeadingH3Bold {
+  font-size: 39px;
+  letter-spacing: 0.005em;
+}
+
+.HeadingH4Bold {
+  font-size: 31px;
+  letter-spacing: 0.005em;
+}
+
+.HeadingH5Bold {
+  font-size: 24px;
+  letter-spacing: 0.005em;
+}
+
+.HeadingH6Bold {
+  font-size: 16px;
+  letter-spacing: 0.005em;
+}
+
+.first__screen {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
+}
+
+.nav-active {
+  font-weight: 700;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+}
+.header__links .navbar {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__links .navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+  color: #fff;
+}
+.header__links .navbar ul a {
+  text-decoration: none;
+  color: #fff;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__item a {
+  display: flex;
+}
+.header__item a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #FDE5E6;
+}
+
+.container {
+  max-width: 1252px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.default-button {
+  background-color: #FA3C45;
+  padding: 14px 24px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 120px);
+  color: #fff;
+  font-family: Mulish, sans-serif;
+}
+
+.slider-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 56px;
+}
+
+.indicators {
+  display: flex;
+  gap: 55px;
+  margin-bottom: 95px;
+}
+
+.indicators-item p ~ span {
+  color: #FA3C45;
+  display: block;
+  margin-top: 30px;
+}
+
+.indicators > button {
+  padding: 18px 24px;
+  cursor: pointer;
+}
+
+.slider__right {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.slider__doughts-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 16px;
+}
+
+.slider__doughts-container .doughts:nth-child(2) {
+  background-color: #FA3C45;
+}
+
+.doughts {
+  width: 16px;
+  height: 16px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.selecetion {
+  height: 100%;
+}/*# sourceMappingURL=index.css.map */
