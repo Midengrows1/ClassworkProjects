@@ -54,6 +54,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  height: calc(100vh - 120px);
   background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
 }
 
@@ -97,7 +98,7 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 25px;
-  background-color: #FDE5E6;
+  background-color: #fde5e6;
 }
 
 .container {
@@ -108,7 +109,7 @@ h6 {
 }
 
 .default-button {
-  background-color: #FA3C45;
+  background-color: #fa3c45;
   padding: 14px 24px;
   text-align: center;
   color: #fff;
@@ -120,7 +121,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 180px);
   color: #fff;
   font-family: Mulish, sans-serif;
 }
@@ -139,7 +140,7 @@ h6 {
 }
 
 .indicators-item p ~ span {
-  color: #FA3C45;
+  color: #fa3c45;
   display: block;
   margin-top: 30px;
 }
@@ -164,7 +165,7 @@ h6 {
 }
 
 .slider__doughts-container .doughts:nth-child(2) {
-  background-color: #FA3C45;
+  background-color: #fa3c45;
 }
 
 .doughts {
@@ -175,5 +176,113 @@ h6 {
 }
 
 .selecetion {
+  padding: 20px 44px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.selecetion .option_brand,
+.selecetion .option_model {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.selecetion .select-styles {
+  width: 100%;
   height: 100%;
+  padding: 13px 24px;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+}
+.selecetion .select-btn {
+  padding: 18px 37px;
+}
+.selecetion .arrow-down {
+  position: absolute;
+  right: 4%;
+  z-index: -999;
+}
+
+.second-screen {
+  background: #f7f7fc;
+  font-family: Mulish, sans-serif;
+}
+
+.second-screen__wrapper {
+  padding-top: 200px;
+}
+.second-screen__wrapper__title {
+  display: flex;
+  justify-content: space-between;
+}
+.second-screen__wrapper__title .btns-container {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.second-screen__wrapper__title .btns-container button {
+  border: 2px solid #fff;
+  outline: none;
+  background: transperent;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 12px;
+}
+.second-screen__wrapper__title .btns-container .left-arrow {
+  transform: rotate(90deg);
+}
+.second-screen__wrapper__title .btns-container .right-arrow {
+  transform: rotate(-90deg);
+}
+
+.second-screen__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px 400px;
+  gap: 16px;
+  margin: 55px 0;
+}
+
+.second-screen-item {
+  background-color: #e2e2ea;
+}
+
+.first__item {
+  grid-column: 1/3;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.second-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.second-indicators {
+  margin: 32px 0 24px 0;
+}
+
+.third__screen__wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.third__screen__left {
+  background-color: #E2E2EA;
+}
+
+.third__screen__right {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
