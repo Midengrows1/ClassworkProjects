@@ -1,178 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Design</title>
-    <link rel="stylesheet" href="./css/index.css" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <section class="first__screen">
-        <div class="container">
-          <header class="header">
-            <div class="header__logo">
-              <img src="./assets/02.svg" alt="Logoipsum" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Design</title>
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="first__screen">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo">
+            <img src="./assets/02.svg" alt="Logoipsum" />
+          </div>
+          <div class="header__links">
+            <nav class="navbar">
+              <ul>
+                <li class>
+                  <a href="#" class="nav-links nav-active">Home</a>
+                </li>
+                <li class><a href="#" class="nav-links">Explore</a></li>
+                <li class><a href="#" class="nav-links">Showroom</a></li>
+                <li class>
+                  <a href="#" class="nav-links">Credit Simulation</a>
+                </li>
+                <li class><a href="#" class="nav-links">Contact Us</a></li>
+              </ul>
+              <select name="pagechoose" id="pageselection">
+                <option value="Paage">Page</option>
+                <option value="Paage">Page New</option>
+              </select>
+            </nav>
+          </div>
+          <div class="header__item">
+            <a class="circle" href="#"><img src="./assets/trophy-1459x2224.png" alt="" /></a>
+            <button class="header__button default-button">
+              Add Your Item
+            </button>
+          </div>
+        </header>
+      </div>
+      <div class="slider container">
+        <div class="slider__left universal-title">
+          <div class="slider-title">
+            <h5 class="headingregular HeadingH5Bold">Esemka Car</h5>
+            <h1 class="HeadingH1Bold">Model SV</h1>
+          </div>
+          <div class="indicators">
+            <div class="indicators-item">
+              <p>Mileage</p>
+              <span>555</span>
             </div>
-            <div class="header__links">
-              <nav class="navbar">
-                <ul>
-                  <li class>
-                    <a href="#" class="nav-links nav-active">Home</a>
-                  </li>
-                  <li class><a href="#" class="nav-links">Explore</a></li>
-                  <li class><a href="#" class="nav-links">Showroom</a></li>
-                  <li class>
-                    <a href="#" class="nav-links">Credit Simulation</a>
-                  </li>
-                  <li class><a href="#" class="nav-links">Contact Us</a></li>
-                </ul>
-                <select name="pagechoose" id="pageselection">
-                  <option value="Paage">Page</option>
-                  <option value="Paage">Page New</option>
-                </select>
-              </nav>
+            <div class="indicators-item">
+              <p>Engine</p>
+              <span>2000</span>
             </div>
-            <div class="header__item">
-              <a class="circle" href="#"
-                ><img src="./assets/trophy-1459x2224.png" alt=""
-              /></a>
-              <button class="header__button default-button">
-                Add Your Item
+            <div class="indicators-item">
+              <p>Fuel Economy</p>
+              <span>8</span>
+            </div>
+          </div>
+          <button class="default-button">Buy Now</button>
+        </div>
+        <div class="slider__right">
+          <div class="slider__doughts-container">
+            <div class="doughts"></div>
+            <div class="doughts"></div>
+            <div class="doughts"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="selecetion container">
+      <div class="option_brand">
+        <select class="select-styles" name="BrandSelect" id="brand">
+          <option value="firsts">Select Brand</option>
+          <option value="second">second</option>
+        </select>
+        <div class="arrow-down">
+          <img src="./assets/Arrow Chevron Down.svg" alt="" />
+        </div>
+      </div>
+      <div class="option_model">
+        <select class="select-styles" name="BrandSelect" id="brand1">
+          <option value="firsts">Select Model</option>
+          <option value="second">second</option>
+        </select>
+        <div class="arrow-down">
+          <img src="./assets/Arrow Chevron Down.svg" alt="" />
+        </div>
+      </div>
+      <button class="default-button select-btn">Search</button>
+    </div>
+    <main class="main">
+      <section class="second-screen">
+        <div class="second-screen__wrapper container">
+          <div class="second-screen__wrapper__title">
+            <h2 class="HeadingH1Bold">Our Collection</h2>
+            <div class="btns-container">
+              <button>
+                <img class="left-arrow" src="./assets/Arrow Chevron Down.svg" alt="" />
+              </button>
+              <button>
+                <img class="right-arrow" src="./assets/Arrow Chevron Down.svg" alt="" />
               </button>
             </div>
-          </header>
-        </div>
-        <div class="slider container">
-          <div class="slider__left universal-title">
-            <div class="slider-title">
-              <h5 class="headingregular HeadingH5Bold">Esemka Car</h5>
-              <h1 class="HeadingH1Bold">Model SV</h1>
-            </div>
-            <div class="indicators">
-              <div class="indicators-item">
-                <p>Mileage</p>
-                <span>555</span>
-              </div>
-              <div class="indicators-item">
-                <p>Engine</p>
-                <span>2000</span>
-              </div>
-              <div class="indicators-item">
-                <p>Fuel Economy</p>
-                <span>8</span>
-              </div>
-            </div>
-            <button class="default-button">Buy Now</button>
           </div>
-          <div class="slider__right">
-            <div class="slider__doughts-container">
-              <div class="doughts"></div>
-              <div class="doughts"></div>
-              <div class="doughts"></div>
+          <div class="second-screen__content">
+            <div class="second-screen-item first__item">
+              <div class="slider__left universal-title">
+                <div class="second-title">
+                  <h5 class="headingregular HeadingH5Bold">Esemka Car</h5>
+                  <h1 class="HeadingH1Bold">Model SV</h1>
+                </div>
+                <div class="second-indicators indicators">
+                  <div class="indicators-item">
+                    <p>2000</p>
+                  </div>
+                  <div class="indicators-item">
+                    <p>Electric</p>
+                  </div>
+                  <div class="indicators-item">
+                    <p>Automatic</p>
+                  </div>
+                </div>
+                <a href=""><img src="./assets/Read More-Button.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="second-screen-item"></div>
+            <div class="second-screen-item"></div>
+            <div class="second-screen-item"></div>
+            <div class="second-screen-item"></div>
+            <div class="second-screen-item"></div>
+          </div>
+        </div>
+      </section>
+      <section class="third__screen ">
+        <div class="third__screen__wrapper container">
+          <div class="third__screen__left"></div>
+          <div class="third__screen__right">
+            <div class="right__content">
+              <div class="right__title universal-title">
+                <h1 class="HeadingH2Bold">Over 10 Years Experiences We Sell Electric Cars</h1>
+                <p>
+                  Develop a website by finding a product identity that has
+                  value and branding to become a characteristic of a company.
+                </p>
+              </div>
+              <div class="right__indicators">
+                <div class="right__indicators__item">
+                  <h3 class="HeadingH2Bold">1000+</h3>
+                  <span>Cars Sold</span>
+                </div>
+                <div class="right__indicators__item">
+                  <h3 class="HeadingH2Bold">235</h3>
+                  <span>Customers</span>
+                </div>
+                <div class="right__indicators__item">
+                  <h3 class="HeadingH2Bold">1100</h3>
+                  <span>Dealer Reviews</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="selecetion container">
-        <div class="option_brand">
-          <select class="select-styles" name="BrandSelect" id="brand">
-            <option value="firsts">Select Brand</option>
-            <option value="second">second</option>
-          </select>
-          <div class="arrow-down">
-            <img src="./assets/Arrow Chevron Down.svg" alt="" />
+      <section class="fourth-screen">
+        <div class="fourth-screen__wrapper container">
+          <div class="fourth-screen__left">
+            <div class="left__title universal-title">
+              <h1 class="HeadingH2Bold">Why Choose Us?</h1>
+              <p>
+                We will help a client's problems to develop the products they
+                have with high quality
+              </p>
+            </div>
+            <div class="left__list">
+              <ul>
+                <li>
+                  <div class="list__item">
+                    <div class="icon__list">
+                      <img src="./assets/trophy-1459x2224.png" alt="icon">
+                    </div>
+                    <div class="list__text">
+                      <h4>More than 10 Years Experiences</h4>
+                      <p>Make the appearance of a mobile application that
+                        has quality and increases user convenience</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list__item">
+                    <div class="icon__list">
+                      <img src="./assets/trophy-1459x2224.png" alt="icon">
+                    </div>
+                    <div class="list__text">
+                      <h4>Trusted by Customers</h4>
+                      <p>Help create a website and redesign it so that it
+                        becomes a website that is more trendy and looks fresh.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list__item">
+                    <div class="icon__list">
+                      <img src="./assets/trophy-1459x2224.png" alt="icon">
+                    </div>
+                    <div class="list__text">
+                      <h4>Wide Range of Brand</h4>
+                      <p>Create customizable illustrations with attractive
+                        designs that are made visually through high creativity</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fourth-screen__right">
           </div>
         </div>
-        <div class="option_model">
-          <select class="select-styles" name="BrandSelect" id="brand">
-            <option value="firsts">Select Model</option>
-            <option value="second">second</option>
-          </select>
-          <div class="arrow-down">
-            <img src="./assets/Arrow Chevron Down.svg" alt="" />
-          </div>
+      </section>
+      <div class="some__brands container">
+        <h5 class="HeadingH5Bold">Our Top Brands</h5>
+        <div class="brands-icons">
+          <img src="./assets/Text-Logo.svg" alt="Text-Logo">
+          <img src="./assets/Company-logo.svg" alt="Company-logo">
+          <img src="./assets/Company-triangle.svg" alt="">
+          <img src="./assets/gaika-text-logo.svg" alt="">
+          <img src="./assets/company-name.svg" alt="">
+          <img src="./assets/Text-Logo.svg" alt="Text-Logo">
         </div>
-        <button class="default-button select-btn">Search</button>
       </div>
-      <main class="main">
-        <section class="second-screen">
-          <div class="second-screen__wrapper container">
-            <div class="second-screen__wrapper__title">
-              <h2 class="HeadingH1Bold">Our Collection</h2>
-              <div class="btns-container">
-                <button>
-                  <img
-                    class="left-arrow"
-                    src="./assets/Arrow Chevron Down.svg"
-                    alt=""
-                  />
-                </button>
-                <button>
-                  <img
-                    class="right-arrow"
-                    src="./assets/Arrow Chevron Down.svg"
-                    alt=""
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="second-screen__content">
-              <div class="second-screen-item first__item">
-                <div class="slider__left universal-title">
-                  <div class="second-title">
-                    <h5 class="headingregular HeadingH5Bold">Esemka Car</h5>
-                    <h1 class="HeadingH1Bold">Model SV</h1>
-                  </div>
-                  <div class="second-indicators indicators">
-                    <div class="indicators-item">
-                      <p>2000</p>
-                    </div>
-                    <div class="indicators-item">
-                      <p>Electric</p>
-                    </div>
-                    <div class="indicators-item">
-                      <p>Automatic</p>
-                    </div>
-                  </div>
-                  <a href=""
-                    ><img src="./assets/Read More-Button.svg" alt=""
-                  /></a>
-                </div>
-              </div>
-              <div class="second-screen-item"></div>
-              <div class="second-screen-item"></div>
-              <div class="second-screen-item"></div>
-              <div class="second-screen-item"></div>
-              <div class="second-screen-item"></div>
+      <section class="fifth-screen">
+        <h2>New Items</h2>
+        <div class="fifth__screen__wrapper container">
+          <div class="other-items main-item">
+            <div class="backimg"></div>
+            <img src="./assets/tesla-main.jpg" alt="tesla">
+            <span>NEW</span>
+            <div class="model-type">
+              <h3 class="HeadingH3Bold">Model SV</h3>
+              <span class="HeadingH6Bold">Esemka Car</span>
+              <p class="HeadingH4Bold">$12000</p>
             </div>
           </div>
-        </section>
-        <section class="third__screen ">
-          <div class="third__screen__wrapper container">
-            <div class="third__screen__left"></div>
-            <div class="third__screen__right">
-              <div class="right__content">
-                <div class="right__title">
-                  <h1>Over 10 Years Experiences We Sell Electric Cars</h1>
-                  <p>
-                    Develop a website by finding a product identity that has
-                    value and branding to become a characteristic of a company.
-                  </p>
-                </div>
-                <div class="right__indicators">
-                  <div class="right__indicators__item">
-                    <h3>1000+</h3>
-                    <span>Cars Sold</span>
-                  </div>
-                </div>
-              </div>
+          <div class="other-items">
+            <div class="backimg"></div>
+            <img src="./assets/tesla-main.jpg" alt="tesla">
+            <span>NEW</span>
+            <div class="model-type">
+              <h3 class="HeadingH3Bold">Model SV</h3>
+              <span class="HeadingH6Bold">Esemka Car</span>
+              <p class="HeadingH4Bold">$12000</p>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
-  </body>
+          <div class="other-items">
+            <div class="backimg"></div>
+            <img src="./assets/tesla-main.jpg" alt="tesla">
+            <span>NEW</span>
+            <div class="model-type">
+              <h3 class="HeadingH3Bold">Model SV</h3>
+              <span class="HeadingH6Bold">Esemka Car</span>
+              <p class="HeadingH4Bold">$12000</p>
+            </div>
+          </div>
+          <div class="other-items">
+            <div class="backimg"></div>
+            <img src="./assets/tesla-main.jpg" alt="tesla">
+            <span>NEW</span>
+            <div class="model-type">
+              <h3 class="HeadingH3Bold">Model SV</h3>
+              <span class="HeadingH6Bold">Esemka Car</span>
+              <p class="HeadingH4Bold">$12000</p>
+            </div>
+          </div>
+          <div class="other-items">
+            <div class="backimg"></div>
+            <img src="./assets/tesla-main.jpg" alt="tesla">
+            <span>NEW</span>
+            <div class="model-type">
+              <h3 class="HeadingH3Bold">Model SV</h3>
+              <span class="HeadingH6Bold">Esemka Car</span>
+              <p class="HeadingH4Bold">$12000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
 </html>
