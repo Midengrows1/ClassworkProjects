@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Raleway:wght@700&family=Roboto&display=swap");
-
+@import "global";
 * {
   margin: 0;
   padding: 0;
@@ -7,78 +7,6 @@
   font-family: Mulish, sans-serif;
 }
 
-// Base colors
-$blackcolor: #000;
-$whitecolor: #fff;
-// Textcolor
-$textcolor1: #11142d;
-$textcolor2: #92929d;
-$textcolor3: #9a9ab0;
-//TextLinkColor
-$purplecolor: #fa3c45;
-// PrimaryColor
-$primarycolor85: #c5010a;
-$primarycolor70: #fa3c45;
-$primarycolor50: #fd5c64;
-$primarycolor30: #fb777d;
-$primarycolor10: #fde5e6;
-
-// Fonts styles
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
-
-.headingregular {
-  font-weight: 400;
-}
-
-.HeadingH1Bold {
-  font-size: 62px;
-  letter-spacing: 0.003em;
-}
-
-.HeadingH2Bold {
-  font-size: 48px;
-  letter-spacing: 0.005em;
-}
-
-.HeadingH3Bold {
-  font-size: 39px;
-  letter-spacing: 0.005em;
-}
-
-.HeadingH4Bold {
-  font-size: 31px;
-  letter-spacing: 0.005em;
-}
-
-.HeadingH5Bold {
-  font-size: 24px;
-  letter-spacing: 0.005em;
-}
-
-.HeadingH6Bold {
-  font-size: 16px;
-  letter-spacing: 0.005em;
-}
-// BodyText
-.Body1Regular {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-// Border-radius
-$border-radius8: 8px;
-// Grids pattern
-.gridsPattern {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
 .main {
   height: 100%;
   background: #f7f7fc;

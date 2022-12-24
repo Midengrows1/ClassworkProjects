@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Raleway:wght@700&family=Roboto&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Mulish, sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -57,6 +50,13 @@ h6 {
 .gridsPattern {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish, sans-serif;
 }
 
 .main {
